@@ -21,9 +21,9 @@ python3 -m pip install --upgrade pip
 python3 -m pip install --upgrade Pillow
 ```
 ### Supporting Image Files
-For the prototype to properly run, supporting images (img1.jpg through img8.jpg) must be downloaded into the same directory as the Python file, stayxchange.py
+For the prototype to properly run, supporting images (img1.jpg through img8.jpg) must be downloaded into the same directory as the Python file, main.py
 
-After assuring proper setup, the file named stayxchange.py can be downloaded and run.
+After assuring proper setup, the file named main.py can be downloaded and run.
 ## 3. Use:
 ### Code Description
 This code defines a simple GUI (Graphical User Interface) application. The application allows users to search, filter, and display information about apartments. Here's a breakdown of the functionalities within the code:
