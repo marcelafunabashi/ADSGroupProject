@@ -15,12 +15,8 @@ To be able to run this program, the following are required:
 ### Python Programming Language
 Latest version is always recommended, Python 3.11 was used for this version of the platform.
 ### Libraries
-This program is making use of the Pillow library. 
-To download the library, use the following command:
-```
-python3 -m pip install --upgrade pip
-python3 -m pip install --upgrade Pillow
-```
+This program is making use of the Pillow library. The command to download has already been included in the main file.
+
 ## 3. Installation:
 1. The first step is to download the zip file in this Github. This zip file will include the README, the main.py code file, and the supporting images required to run the code.
 2. After, open the ‘main.py’ file which is the code. 
