@@ -16,7 +16,7 @@ To be able to run this program, the following are required:
 Latest version is always recommended, Python 3.11 was used for this version of the platform.
 ### Libraries
 This program is making use of the Pillow library.
-To avoid any issues with installation, the following commands can be run in Terminal before running the main.py file:
+To avoid any issues with installation, the following commands can be run in Terminal before running the main.py content in IDLE:
 ```
 pip3 install --upgrade pip
 pip3 install Pillow
