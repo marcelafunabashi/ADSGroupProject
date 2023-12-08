@@ -18,7 +18,7 @@ def filter_apartments(apts, filters):
 
     for key, value in filters.items():
         if value is not None:
-            if key in ["min_bedrooms", "min_bathrooms", "max_price"]:
+            if key in ["min_bedrooms", "min_bathrooms"]:
                 filtered_apartments = [apt for apt in filtered_apartments if apt[f"{key.split('_')[1]}"] >= value]
             elif key == "location":
                 filtered_apartments = [apt for apt in filtered_apartments if apt[key] == value]
@@ -90,7 +90,6 @@ def ApartmentAppGUI():
             "min_bathrooms": int(entry_bathrooms.get()) if entry_bathrooms.get() else None,
             "heater": bool(var_heater.get()) if var_heater.get() else None,
             "pets_allowed": bool(var_pets_allowed.get()) if var_pets_allowed.get() else None,
-            "max_price": int(entry_max_price.get()) if entry_max_price.get() else None,
             "location": entry_location.get() if entry_location.get() else None,
         }
 
@@ -201,11 +200,6 @@ def ApartmentAppGUI():
     var_pets_allowed = tk.BooleanVar()
     checkbox_pets_allowed = tk.Checkbutton(root, text="Pets Allowed", variable=var_pets_allowed)
     checkbox_pets_allowed.pack()
-
-    label_max_price = tk.Label(root, text="Maximum Price:")
-    label_max_price.pack()
-    entry_max_price = tk.Entry(root)
-    entry_max_price.pack()
 
     label_location = tk.Label(root, text="Location:")
     label_location.pack()
