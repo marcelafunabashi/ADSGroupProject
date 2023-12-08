@@ -8,7 +8,7 @@ Our platform has 2 main functions:
 Incoming exchange students at IE University in Madrid often report their struggles on locating a place to stay during their short-term studies. According to initial findings, this is due to the fact that rental options are mostly offered on long-term contracts.
 On the other hand, IE students going abroad find themselves unnecessarily paying for long-term contracts, at the lack of shorter options, and wasting money as they are not staying for the duration of their exchange. The supply of one group is the demand of the other.
 ### Technologies Used
-This program was created in a Windows 10 64 bit OS.
+This program was created in a macOS Monterey Version 12.7.1.
 For the development of our platform, we used Python 3.11 within PyCharm 2023.2.1 (Professional Edition). 
 ## 2. Prerequisites:
 To be able to run this program, the following are required:
