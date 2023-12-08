@@ -36,7 +36,8 @@ We made a function named filter_apartments that takes the dictionary of apartmen
 #### GUI Setup:
 The main GUI is set up using Tkinter. It includes entry fields, checkboxes, buttons, and labels for filtering apartments based on criteria that was previously specified.
 
-<img width="619" alt="Screenshot 2023-11-29 at 12 51 45" src="https://github.com/marcelafunabashi/ADSGroupProject/assets/151947761/82f20587-58b3-48ef-907d-7fda554196af">
+<img width="455" alt="Screen Shot 2023-12-08 at 12 27 24" src="https://github.com/marcelafunabashi/ADSGroupProject/assets/151942129/8aa457a7-be55-4e81-81d4-0b916906824f">
+
 
 #### Image Loading Function:
 The load_image function takes an image path, resizes the image, and converts it into a Tkinter PhotoImage object in order to be able to fit it into the GUI.
@@ -45,14 +46,20 @@ The selection_sort_by_price function implements selection sort algorithm to sort
 #### Display Function:
 There is a function named display_apartments that opens a new window and displays information about apartments. It uses a canvas with a scrollbar in case there are more than one apartment.
 
-<img width="410" alt="Screenshot 2023-11-29 at 12 52 20" src="https://github.com/marcelafunabashi/ADSGroupProject/assets/151947761/9c035f0d-287d-454e-8260-437b12ebf0fc">
+<img width="294" alt="Screen Shot 2023-12-08 at 12 31 14" src="https://github.com/marcelafunabashi/ADSGroupProject/assets/151942129/05fad138-c8cb-438f-aca4-d017c36fb0e6">
+
 
 #### Update Preview Function:
-The update_preview function updates a preview section in the main window based on the selected filters. It displays the image and details of the first filtered apartment. 
+The update_preview function updates a preview section in the main window based on the selected filters. It displays the image and details of the first filtered apartment, which has the lowest price out of all the apartments that meet the criteria of number of bedrooms, bathrooms, heater, pets allowance, and location.
+
+<img width="684" alt="Screen Shot 2023-12-08 at 12 34 45" src="https://github.com/marcelafunabashi/ADSGroupProject/assets/151942129/6168a786-76e1-44c4-8615-a156ec1125ab">
+
+
 #### Add Apartment Function:
 The add_apartment function creates a new window to add a new apartment. It includes entry fields for bedrooms, bathrooms, heater, pets allowed, price, location, and a button to select an image. The user should use that function to enlist a new apartment, providing the required fields.
 
-<img width="376" alt="Screenshot 2023-11-29 at 12 52 40" src="https://github.com/marcelafunabashi/ADSGroupProject/assets/151947761/0c55e4da-4bc6-4faf-b6e9-a2a947ba1aec">
+<img width="299" alt="Screen Shot 2023-12-08 at 12 32 38" src="https://github.com/marcelafunabashi/ADSGroupProject/assets/151942129/765598cd-4447-4e76-a391-7748d2a2759c">
+
 
 #### Main Application Loop:
 The main loop (root.mainloop()) runs the Tkinter application.
@@ -61,6 +68,7 @@ The main loop (root.mainloop()) runs the Tkinter application.
 Dictionaries – used to keep track of apartments and filters.
 ### Algorithms:
 Selection Sort – the selection sort algorithm was implemented to sort apartments through prices. The function takes in the apartments dictionary, and applies a for loop so all elements are iterated. A min_index variable is assigned the variable in iteration. Another for loop iterates through the remaining elements in the list and uses an if statement to test which apartment in the dictionary has a higher price. The apartment with the lower price is then ordered in variable 'apts' which, after all iterations, is returned by the function containing an ordered list of the apartments by ascending price.
+
 ## 6. Credits:
 Project Creators:
 * Antonio Argenta
