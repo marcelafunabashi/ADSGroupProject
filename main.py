@@ -1,4 +1,4 @@
-python3 -m pip install pillow
+pip3 install Pillow
 import tkinter as tk
 from tkinter import filedialog
 from PIL import Image, ImageTk
